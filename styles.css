@@ -33,7 +33,7 @@ body {
     align-items: center;
     justify-content: center;
     border: 2px solid purple;
-    box-shadow: 2px 2px 2px purple;
+    box-shadow: 2px 2px 10px purple;
 }
 
 #text1 {
