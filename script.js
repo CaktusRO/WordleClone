@@ -112,8 +112,8 @@ let text1 = document.createElement("span")
 let text2 = document.createElement("span")
 text1.setAttribute("ID", "text1")
 text2.setAttribute("ID", "text2")
-text1.innerText = "Congratulations!"
-text2.innerText = "The word was " + correctWord.innerText + "!"
+text1.innerText = "Felicitări!"
+text2.innerText = "Cuvântul este " + correctWord.innerText + "!"
 winBox.append(text1)
 winBox.append(text2)
 
@@ -134,7 +134,7 @@ button.addEventListener("click", () => {
             HTMLrow1[i].style.backgroundColor = "green";
             HTMLspans1[i].style.color = "white";
             checkHere1[i] = 0;
-            alert.innerText = "Write a five-letter word!"
+            alert.innerText = "Scrie un cuvânt de cinci litere!"
         }
     }
     for (i = 0; i < HTMLspans1.length; i++) {
@@ -143,14 +143,14 @@ button.addEventListener("click", () => {
             HTMLrow1[i].style.backgroundColor = "#cccc00";
             HTMLspans1[i].style.color = "white";
             checkHere1[checkHere1.indexOf(HTMLspans1[i].innerText)] = 0;
-            alert.innerText = "Write a five-letter word!"
+            alert.innerText = "Scrie un cuvânt de cinci litere!"
         }
     }
     if (row11.style.backgroundColor == "green" &&row12.style.backgroundColor == "green" &&row13.style.backgroundColor == "green" &&row14.style.backgroundColor == "green" &&row15.style.backgroundColor == "green") {
         console.log("Bravo!")
         body.append(winScreen)
         body.append(winBox);
-        alert.innerText = "Thank you for playing!"
+        alert.innerText = "Mulțumim că ai jucat!"
     }
     console.log(row1) // Row 1 - end
     } else if (span21.innerText == '') { // Row 2 - start
@@ -164,7 +164,7 @@ button.addEventListener("click", () => {
             HTMLrow2[i].style.backgroundColor = "green";
             HTMLspans2[i].style.color = "white";
             checkHere2[i] = 0;
-            alert.innerText = "Write a five-letter word!"
+            alert.innerText = "Scrie un cuvânt de cinci litere!"
         }
     }
     for (i = 0; i < HTMLspans2.length; i++) {
@@ -173,14 +173,14 @@ button.addEventListener("click", () => {
             HTMLrow2[i].style.backgroundColor = "#cccc00";
             HTMLspans2[i].style.color = "white";
             checkHere2[checkHere2.indexOf(HTMLspans2[i].innerText)] = 0;
-            alert.innerText = "Write a five-letter word!"
+            alert.innerText = "Scrie un cuvânt de cinci litere!"
         }
     }
     if (row21.style.backgroundColor == "green" &&row22.style.backgroundColor == "green" &&row23.style.backgroundColor == "green" &&row24.style.backgroundColor == "green" &&row25.style.backgroundColor == "green") {
         console.log("Bravo!")
         body.append(winScreen)
         body.append(winBox);
-        alert.innerText = "Thank you for playing!"
+        alert.innerText = "Mulțumim că ai jucat!"
 }
     } // Row 2 - end
      else if (span31.innerText == ''){ 
@@ -194,7 +194,7 @@ for (let i = 0; i < HTMLspans3.length; i++) {
         HTMLrow3[i].style.backgroundColor = "green";
         HTMLspans3[i].style.color = "white";
         checkHere3[i] = 0;
-        alert.innerText = "Write a five-letter word!"
+        alert.innerText = "Scrie un cuvânt de cinci litere!"
     }
 }
 for (i = 0; i < HTMLspans3.length; i++) {
@@ -203,14 +203,14 @@ for (i = 0; i < HTMLspans3.length; i++) {
         HTMLrow3[i].style.backgroundColor = "#cccc00";
         HTMLspans3[i].style.color = "white";
         checkHere3[checkHere3.indexOf(HTMLspans3[i].innerText)] = 0;
-        alert.innerText = "Write a five-letter word!"
+        alert.innerText = "Scrie un cuvânt de cinci litere!"
     }
 }
 if (row31.style.backgroundColor == "green" &&row32.style.backgroundColor == "green" &&row33.style.backgroundColor == "green" &&row34.style.backgroundColor == "green" &&row35.style.backgroundColor == "green") {
     console.log("Bravo!")
     body.append(winScreen)
     body.append(winBox);
-    alert.innerText = "Thank you for playing!"
+    alert.innerText = "Mulțumim că ai jucat!"
 }
 
 } else if (span41.innerText == ''){ 
@@ -224,7 +224,7 @@ for (let i = 0; i < HTMLspans4.length; i++) {
         HTMLrow4[i].style.backgroundColor = "green";
         HTMLspans4[i].style.color = "white";
         checkHere4[i] = 0;
-        alert.innerText = "Write a five-letter word!"
+        alert.innerText = "Scrie un cuvânt de cinci litere!"
     }
 }
 for (i = 0; i < HTMLspans4.length; i++) {
@@ -233,14 +233,14 @@ for (i = 0; i < HTMLspans4.length; i++) {
         HTMLrow4[i].style.backgroundColor = "#cccc00";
         HTMLspans4[i].style.color = "white";
         checkHere4[checkHere4.indexOf(HTMLspans4[i].innerText)] = 0;
-        alert.innerText = "Write a five-letter word!"
+        alert.innerText = "Scrie un cuvânt de cinci litere!"
     }
 }
 if (row41.style.backgroundColor == "green" &&row42.style.backgroundColor == "green" &&row43.style.backgroundColor == "green" &&row44.style.backgroundColor == "green" &&row45.style.backgroundColor == "green") {
     console.log("Bravo!")
     body.append(winScreen)
     body.append(winBox);
-    alert.innerText = "Thank you for playing!"
+    alert.innerText = "Mulțumim că ai jucat!"
 }
 
 
@@ -255,7 +255,7 @@ for (let i = 0; i < HTMLspans5.length; i++) {
         HTMLrow5[i].style.backgroundColor = "green";
         HTMLspans5[i].style.color = "white";
         checkHere5[i] = 0;
-        alert.innerText = "Write a five-letter word!"
+        alert.innerText = "Scrie un cuvânt de cinci litere!"
     }
 }
 for (i = 0; i < HTMLspans5.length; i++) {
@@ -264,14 +264,14 @@ for (i = 0; i < HTMLspans5.length; i++) {
         HTMLrow5[i].style.backgroundColor = "#cccc00";
         HTMLspans5[i].style.color = "white";
         checkHere5[checkHere5.indexOf(HTMLspans5[i].innerText)] = 0;
-        alert.innerText = "Write a five-letter word!"
+        alert.innerText = "Scrie un cuvânt de cinci litere!"
     }
 }
 if (row51.style.backgroundColor == "green" &&row52.style.backgroundColor == "green" &&row53.style.backgroundColor == "green" &&row54.style.backgroundColor == "green" &&row55.style.backgroundColor == "green") {
     console.log("Bravo!")
     body.append(winScreen)
     body.append(winBox);
-    alert.innerText = "Thank you for playing!"
+    alert.innerText = "Mulțumim că ai jucat!"
     
     
 }
@@ -303,19 +303,19 @@ if (row61.style.backgroundColor == "green" &&row62.style.backgroundColor == "gre
     console.log("Bravo!")
     body.append(winScreen)
     body.append(winBox);
-    alert.innerText = "Thank you for playing!"
+    alert.innerText = "Mulțumim că ai jucat!"
 } else {
     body.append(winScreen)
     body.append(winBox)
-    text1.innerText = "You didn't guess!"
+    text1.innerText = "Nu ai ghicit!"
     text1.style.color = "purple"
-    alert.innerText = "Thank you for playing!"
+    alert.innerText = "Mulțumim că ai jucat!"
 
 }
 
-} alert.innerText = "Write a five-letter word!"
+} alert.innerText = "Scrie un cuvânt de cinci litere!"
 } else {
-alert.innerText = "Please write a five-letter word."
+alert.innerText = "Te rog scrie un cuvânt de cinci litere!"
 } 
 input.value = ""}
 
